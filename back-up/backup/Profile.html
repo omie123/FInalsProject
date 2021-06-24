@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> HiFriend </title>
+    	<meta charset="UTF-8"/>
+    	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    	<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+    	<link rel = "stylesheet" href = "ProfileCSS.css">	
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<script src="https://kit.fontawesome.com/fdf300571b.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="navbar">
+     		<div class="navbar-left">
+        		<img class="hifriend-logo" src=https://i.postimg.cc/zGzBMsbN/hi.jpg
+        		alt="logo">
+        		<div class="input-icon">
+          			<i class="fas fa-search icon"></i>
+          			<input type="text" class="input-field" placeholder="Search Facebook" />
+        		</div>
+      		</div>
+      		<div class="navbar-center">
+        		<a href="HiFriend.html">
+          			<i class="fas fa-home"></i>
+        		</a>
+        		<a href="#">
+          			<i class="fas fa-user-friends"></i>
+        		</a>
+        		<a href="#">
+          			<i class="fas fa-play-circle"></i>
+        		</a>
+        		<a href="#">
+          			<i class="fas fa-archive"></i>
+        		</a>
+        		<a href="#">
+          			<i class="fas fa-users"></i>
+        		</a>
+      		</div>
+      		<div class="navbar-right">
+        		<div class="navbar-right-profile">
+        			<div class="active-icon">
+          				<!--PROFILE-->
+          				<img style="border-radius: 30px" id="profilePictureNav" src="" alt="profile"/>
+          				<!--NAME-->
+          				<span style="text-transform: capitalize" id="firstName"></span>
+          			</div>
+        		</div>
+        		<div class="navbar-right-links">
+          			<i class="fas fa-plus"></i>
+          			<i class="fab fa-facebook-messenger"></i>
+          			<i class="fas fa-bell"></i>
+          			<i id="signOut" class="fas fa-sign-out-alt"></i>
+       			</div>
+      		</div>
+    	</div>
+    	<div class="content">
+    		<div class="content-center">
+    			<div class="cover-photo">
+    				<span><i class="fas fa-camera"></i>&nbsp;Add Cover Photo</span>
+    			</div>
+    			<div class="profile-user">
+    				<div class="camera">
+            			<label for="myFile"><i class="fas fa-camera"></i></label>
+                  <input type="file" id="myFile" style="display: none; visibility: none">
+            		</div>
+                <img id="imgProfile" src="" alt="Profile" class="profile-circle" id="profileUser">
+            		<span class="fullName" style="text-transform: capitalize" id="fullNameUser"></span>
+            		<span class="bio">Add Bio</span>
+          		</div>
+          		<hr>
+          		<div class="buttons">
+          			<span class="active-icon">Posts</span>
+          			<span>About</span>
+          			<span>Friend</span>
+          			<span>Photo</span>
+          			<span>Story Archive</span>
+          			<span>More</span><i class="fas fa-caret-down"></i>
+                <div class="button-box">
+                    <span class="add-to-story"><i class="fas fa-plus"></i>&nbsp;Add to Story</span>
+                  <span><i class="fas fa-pencil-alt"></i>&nbsp;Edit Profile</span>
+                  <span><i class="fas fa-ellipsis-h"></i></span>
+                </div>
+          		</div>
+            </div>
+    		</div>
+    	</div>   
+      <script src="ProfileJS.js"></script>
+    <script src="Setup.js"></script>
+    <script src="LoggedIn.js"></script>
+	</body>
+</html>

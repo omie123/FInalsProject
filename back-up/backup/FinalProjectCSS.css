@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-height: 100vh;
+  background-color: #dfe3ee;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+h1 {
+  font-size: 55px;
+  color: #1877f2;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bestfriend {
+  height: 450px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.form {
+  padding: 18px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.form input {
+  margin-top: 18px;
+  padding: 22px;
+  width: 440px;
+  font-size: 18px;
+  border-radius: 15px;
+  background-color: #ffff;
+  border-color: gray;
+  outline: none;
+}
+
+.log-in-button {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.log-in-button input {
+  display: block;
+  background-color: #1877f2;
+  color: #ffff;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+.log-in-button a:hover {
+  background-color: #0d65d9;
+}
+.forgot-pass {
+  margin: 15px;
+  color: #1877f2;
+}
+
+.forgot-pass:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.create-account button {
+  background-color: #1b9c24;
+  margin-top: 20px;
+  color: #ffff;
+  height: 60px;
+  border-radius: 10px;
+  width: 250px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.background-modal {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+
+.modal-content {
+  width: 440px;
+  height: 490px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+}
+
+#register {
+  position: relative;
+}
+
+.sign-up {
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 1px;
+  padding: 5px 10px 0;
+}
+
+.note {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #666666;
+  padding: 0 0 14px 0;
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 23px;
+  font-size: 42px;
+  font-weight: 500;
+  color: #666666;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.full-name {
+  margin: 15px 0 10px;
+}
+
+.full-name [type="text"] {
+  padding: 8px;
+  font-size: 17px;
+  width: 200px;
+  height: 42px;
+  background-color: #eef0f6;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+  color: #666666;
+  outline: none;
+}
+
+#firstName {
+  margin: 0 10px;
+}
+
+.register-email {
+  margin-bottom: 10px;
+}
+
+.register-email [type="email"] {
+  margin-left: 8px;
+  padding: 8px;
+  font-size: 17px;
+  width: 95%;
+  height: 42px;
+  background-color: #eef0f6;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+  color: #666666;
+  outline: none;
+}
+
+.register-password {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+}
+
+.eye i {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+#passwordUser {
+  margin-left: 8px;
+  padding: 8px;
+  font-size: 17px;
+  width: 95%;
+  height: 42px;
+  background-color: #eef0f6;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+  color: #666666;
+  outline: none;
+}
+
+.birthday {
+  margin: 10px 8px;
+  font-size: 15px;
+  color: #666666;
+}
+
+select {
+  margin-left: 8px;
+  padding: 8px;
+  font-size: 17px;
+  width: 30%;
+  height: 42px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+  color: #666666;
+  outline: none;
+}
+
+.gender {
+  margin: 10px 8px;
+  font-size: 15px;
+  color: #666666;
+}
+
+.gender-user {
+  display: flex;
+  justify-content: space-evenly;
+  height: 2.5em;
+  text-align: center;
+}
+
+.gender-user [type="radio"] {
+  margin-left: 96px;
+  padding: 10px;
+  font-size: 18px;
+  height: 100%;
+}
+
+.male {
+  padding-bottom: 12px;
+  width: 205px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  color: #666666;
+}
+
+.female {
+  padding-bottom: 12px;
+  width: 205px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  color: #666666;
+}
+
+.registered-account [type="submit"] {
+  margin: 22px 95px;
+  background-color: #1b9c24;
+  color: #ffff;
+  width: 55%;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+.registered-account [type="submit"]:hover {
+  cursor: pointer;
+  background-color: #51e15a;
+}

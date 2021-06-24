@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HiFriend</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="HiFriendCSS.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fdf300571b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-left">
+        <img class="hifriend-logo" src=https://i.postimg.cc/zGzBMsbN/hi.jpg
+        alt="logo">
+        <div class="input-icon">
+          <i class="fas fa-search icon"></i>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Search Facebook"
+          />
+        </div>
+      </div>
+
+      <div class="navbar-center">
+        <a href="#" class="active-icon">
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="#">
+          <i class="fas fa-user-friends"></i>
+        </a>
+        <a href="#">
+          <i class="fas fa-play-circle"></i>
+        </a>
+        <a href="#">
+          <i class="fas fa-archive"></i>
+        </a>
+        <a href="#">
+          <i class="fas fa-users"></i>
+        </a>
+      </div>
+
+      <div class="navbar-right">
+        <div class="navbar-right-profile">
+          <!--PROFILE-->
+          <img style="border-radius: 30px" id="profilePictureNav" src="" alt="profile"/>
+          <!--NAME-->
+          <span style="text-transform: capitalize" id="firstNameNav"></span>
+        </div>
+        <div class="navbar-right-links">
+          <i class="fas fa-plus"></i>
+          <i class="fab fa-facebook-messenger"></i>
+          <i class="fas fa-bell"></i>
+          <i id="signOut" class="fas fa-sign-out-alt"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-left">
+        <ul>
+          <li>
+            <a href="#">
+              <!--PROFILE IMAGE-->
+              <a href="Profile.html"><img style="border-radius: 30px" id="profilePicture" src="" alt="profile"/> 
+              <!--NAME-->
+              <span style="text-transform: capitalize" id="fullName"></span></a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/fbkLK1kb/covid.png alt="covid">
+              <span>COVID-19 Information Center</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/TwzwnYtM/friends.png alt="friends">
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/hvZ2267B/groups.png alt="groups">
+              <span>Groups</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/8cbxbZTd/marketplace.png
+              alt="marketplace">
+              <span>Marketplace</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/t4kj9CPR/videos.png alt="video">
+              <span>Video</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/HszVJH1n/events.png alt="events">
+              <span>Events</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/MGQBf4YL/memories.png
+              alt="Memories">
+              <span>Memories</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src=https://i.postimg.cc/zvvsDnCq/saved.png alt="saved">
+              <span>Saved</span>
+            </a>
+          </li>
+          <li>
+            <i class="fas fa-arrow-down"></i>
+            <span class="see-more">See More</span>
+          </li>
+          <div class="border"></div>
+          <h3 class="shortcut-title">Your Shortcuts</h3>
+          <div class="shortcuts-wrapper">
+            <a href="#">
+              <img src=https://i.postimg.cc/dt2Km7r6/shortcuts.png
+              alt="shortcuts">
+              <span>Team Payaman Posting</span>
+            </a>
+          </div>
+        </ul>
+      </div>
+
+      <div class="content-center">
+        <div class="stories">
+          <div class="create-story">
+            <img src=https://i.postimg.cc/8C1NT2sG/joshua.jpg alt="">
+            <span class="create-story-text">Create Story</span>
+            <img src=https://i.postimg.cc/Pxb3zQDQ/plus.png alt="" class="plus">
+          </div>
+          <div class="gian-myday">
+            <img src=https://i.postimg.cc/nc4LZYTv/gian.jpg alt="">
+            <span class="gian-text">Gian Flordeliz</span>
+            <img src=https://i.postimg.cc/nc4LZYTv/gian.jpg alt="" class="gian-circle"> 
+          </div>
+          <div class="ronald-myday">
+            <img src=https://i.postimg.cc/pXzmrtV5/ronald.jpg alt="">
+            <span class="ronald-text">Ronald Garcia</span>
+            <img src=https://i.postimg.cc/pXzmrtV5/ronald.jpg alt="" class="ronald-circle">
+          </div>
+          <div class="jade-myday">
+            <img src=https://i.postimg.cc/xdCjvrQR/jade.jpg alt=""> 
+            <span class="jade-text">Jade Mapola</span>
+            <img src=https://i.postimg.cc/xdCjvrQR/jade.jpg alt="" class="jade-circle">
+          </div>
+          <div class="celjay-myday">
+            <img src=https://i.postimg.cc/prN2MpFG/celjay.jpg alt="">
+            <span class="celjay-text">CelJay Negrillo</span>
+            <img src=https://i.postimg.cc/prN2MpFG/celjay.jpg alt="" class="celjay-circle">
+          </div>
+        </div>
+        <div class="media-container">
+          <div class="share">
+            <div class="share-upSide">
+              <!--Profile-->
+              <input type="text" placeholder="What's on your mind," style="text-transform: capitalize" id="firstNameMind"/>
+              
+            </div>
+            <hr />
+            <div class="share-downSide">
+              <div class="share-downSide-link">
+                <i class="fas fa-video live-video-icon"></i>
+                <span>Live Video</span>
+              </div>
+              <div class="share-downSide-link">
+                <i class="fas fa-photo-video photo-video-icon"></i>
+                <span>Photo/Video</span>
+              </div>
+              <div class="share-downSide-link">
+                <i class="fas fa-grin-alt feeling-icon"></i>
+                <span>Feeling/Activity</span>
+              </div>
+            </div>
+          </div>
+          <div class="news-feed">
+            <div class="news-feed-title">
+              <!--Friend profile-->
+              <div class="news-feed-title-content">
+                <!--Name of friend post-->
+                <!--post time--><i class="fa-user-friends"></i>
+              </div>
+            </div>
+            <div class="news-feed-description">
+              <p class="news-feed-subtitle"><!--DESCRIPTION POST--></p>
+              <!--img -->
+            </div>
+            <div class="likes-area">
+              <div class="emojis">
+                <!--emoji-->
+                <!--count emoji-->
+              </div>
+              <div class="comment-counts">
+                <!--comment-count-->
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="likes-buttons">
+              <div class="likes-buttons-links">
+                <i class="far fa-thumbs-up"></i>
+                <span>Like</span>
+              </div>
+              <div class="likes-buttons-links">
+                <i class="far fa-comment-alt"></i>
+                <span>Comment</span>
+              </div>
+              <div class="likes-buttons-links">
+                <i class="fas fa-share"></i>
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-right">
+        <div class="content_right-inner">
+          <div class="your-pages">
+            <h3>Your Pages</h3>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src=https://i.postimg.cc/zG4ZBp5d/barangay.jpg
+                alt="barangay"/>
+                <span class="barangay">BARANGAY OTITS</span>
+              </a>
+            </li>
+            <li class="content-right-small-text">
+              <a href="#">
+                <i class="fas fa-bell"></i>
+                <span>0 Notifications</span>
+              </a>
+            </li>
+            <li class="content-right-small-text">
+              <a href="#">
+                <i class="fas fa-bullhorn"></i>
+                <span>Create Promotion</span>
+              </a>
+            </li>
+          </ul>
+          <div class="content-right-divider"></div>
+          <div class="birthdays">
+            <h3>Birthdays</h3>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src=https://i.postimg.cc/zf9xKPPQ/gift-box.png
+                alt="gift-box" class="gift" />
+                <span class="user-birthday">Gian's birthday is today</span>
+              </a>
+            </li>
+          </ul>
+          <div class="content-right-divider"></div>
+          <div class="contacts">
+            <h3>Contacts</h3>
+            <div class="contact-icons">
+              <i class="fas fa-search"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="HiFriend.js"></script>
+    <script src="Setup.js"></script>
+    <script src="LoggedIn.js"></script>
+  </body>
+</html>
